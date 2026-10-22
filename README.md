@@ -4,7 +4,7 @@
 
 ## 安装
 
-需要 Python 3.10+、Node.js 18+、npm、curl，以及系统时区数据库。
+需要 Python 3.10+、Node.js 22+、npm、curl，以及系统时区数据库。
 
 ```sh
 npm ci
@@ -49,6 +49,8 @@ systemctl --user daemon-reload
 systemctl --user enable --now esgcc-approval.service
 systemctl --user status esgcc-approval.service
 ```
+
+若系统 Node 版本较旧，可用 `npm install --prefix ~/.local/share/esgcc-runtime node@22` 安装独立运行时，并在服务 PATH 中加入该目录的 `node_modules/.bin`。
 
 需为该用户启用 systemd linger 才能在注销后常驻。审批按 Asia/Shanghai 时区执行。服务仅绑定 127.0.0.1；远程访问请使用 SSH 本地端口转发（保持本地端口 18766），不直接公开设置接口。
 
