@@ -1,0 +1,9 @@
+{
+  "name": "esgcc-approval-script",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "acorn": "8.19.0",
+    "linkedom": "0.18.13"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "approvalEnabled": false,
+  "approvalTimes": [
+    "12:30",
+    "18:30"
+  ],
+  "approvalWeekdays": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "barkEnabled": false,
+  "barkUrl": "https://api.day.app/push",
+  "keepaliveEnabled": true,
+  "keepaliveMinutes": 5,
+  "materialBidEnabled": true,
+  "materialConfirmEnabled": true,
+  "materialProcurementEnabled": false,
+  "notifyApproved": true,
+  "notifyError": true,
+  "notifyLoginExpired": true,
+  "notifyManual": true,
+  "notifyZero": false,
+  "serverChanEnabled": false,
+  "serviceBidEnabled": true,
+  "serviceConfirmEnabled": true,
+  "serviceProcurementEnabled": false,
+  "validationOnly": true,
+  "bindHost": "127.0.0.1",
+  "bindPort": 18766,
+  "processingIntervalSeconds": 8
+}

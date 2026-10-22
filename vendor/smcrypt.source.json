@@ -1,0 +1,8 @@
+{
+  "source": "https://static.esgcc.com.cn/static/jtqy/front/res/js/smcrypt/smcrypt_1.0.0.js",
+  "retrieved_at": "2026-10-20T13:09:37.841468+08:00",
+  "sha256": "01bd87c4c3a9321dea5b93a6f725b7dbc6805db857f05599a1abfb82adb0b845",
+  "scope": "public encryption implementation; no credentials",
+  "validated": "executed in Node VM; server login not verified",
+  "invalidation": "refresh and revalidate if login script or encryption source changes"
+}

@@ -1,0 +1,19 @@
+[Unit]
+Description=Browser-free ESGCC approval service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/esgcc-approval-script
+ExecStart=/usr/bin/python3 %h/esgcc-approval-script/service.py
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+Environment=TZ=Asia/Shanghai
+UMask=0077
+Restart=on-failure
+RestartSec=30
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target

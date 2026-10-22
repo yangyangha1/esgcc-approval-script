@@ -1,0 +1,5 @@
+{
+  "source": "chrome-extension/esgcc-keepalive/background.js",
+  "sha256": "dccc5580241b9695be4279dcc14c62f6318d05f7e5577b30ac0e40444b5aadd8",
+  "adaptation": "literal-only argument parsing; dry-run commands only; no page scripts executed"
+}

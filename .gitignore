@@ -1,0 +1,10 @@
+private/
+settings.json
+state.json
+*.log
+__pycache__/
+node_modules/
+.DS_Store
+vendor/smcrypt.js
+*-result.json
+.env*
