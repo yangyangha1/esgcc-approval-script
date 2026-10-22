@@ -18,7 +18,6 @@ python3 setup.py
 ```sh
 python3 client.py login
 python3 client.py check
-python3 -m unittest -q test_client test_runner test_keepalive test_execution
 python3 service.py
 ```
 
